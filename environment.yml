@@ -1,0 +1,17 @@
+name: Pearson-ML
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - scikit-learn
+  - hdbscan
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
+  - seaborn
+  - pillow
+  - graphviz
+  - pygraphviz
+  - pyamg
+  - jupyterlab
