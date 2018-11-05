@@ -8,3 +8,4 @@ src/.ipynb_checkpoints/*
 **/__pycache__/*
 .DS_STORE
 **/*.swp
+.ropeproject/*
