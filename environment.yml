@@ -1,5 +1,6 @@
 name: Pearson-ML
 channels:
+  - intel
   - conda-forge
 dependencies:
   - python=3
