@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="waist <= 33.5\nsamples = 15\nvalue = [4, 7, 1, 2, 1]\nclass = M", fillcolor="#dbf8c9"] ;
+1 [label="height <= 69.5\nsamples = 12\nvalue = [3, 7, 1, 0, 1]\nclass = M", fillcolor="#c4f3a7"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="weight <= 167.5\nsamples = 5\nvalue = [2, 1, 1, 0, 1]\nclass = L", fillcolor="#f8e0ce"] ;
+1 -> 2 ;
+3 [label="weight <= 152.5\nsamples = 3\nvalue = [0, 1, 1, 0, 1]\nclass = M", fillcolor="#ffffff"] ;
+2 -> 3 ;
+4 [label="samples = 1\nvalue = [0, 1, 0, 0, 0]\nclass = M", fillcolor="#7be539"] ;
+3 -> 4 ;
+5 [label="age <= 29.0\nsamples = 2\nvalue = [0, 0, 1, 0, 1]\nclass = S", fillcolor="#ffffff"] ;
+3 -> 5 ;
+6 [label="samples = 1\nvalue = [0, 0, 0, 0, 1]\nclass = XS", fillcolor="#e539c0"] ;
+5 -> 6 ;
+7 [label="samples = 1\nvalue = [0, 0, 1, 0, 0]\nclass = S", fillcolor="#39e5c5"] ;
+5 -> 7 ;
+8 [label="samples = 2\nvalue = [2, 0, 0, 0, 0]\nclass = L", fillcolor="#e58139"] ;
+2 -> 8 ;
+9 [label="waist <= 32.5\nsamples = 7\nvalue = [1, 6, 0, 0, 0]\nclass = M", fillcolor="#91e95a"] ;
+1 -> 9 ;
+10 [label="samples = 5\nvalue = [0, 5, 0, 0, 0]\nclass = M", fillcolor="#7be539"] ;
+9 -> 10 ;
+11 [label="age <= 24.5\nsamples = 2\nvalue = [1, 1, 0, 0, 0]\nclass = L", fillcolor="#ffffff"] ;
+9 -> 11 ;
+12 [label="samples = 1\nvalue = [1, 0, 0, 0, 0]\nclass = L", fillcolor="#e58139"] ;
+11 -> 12 ;
+13 [label="samples = 1\nvalue = [0, 1, 0, 0, 0]\nclass = M", fillcolor="#7be539"] ;
+11 -> 13 ;
+14 [label="weight <= 187.5\nsamples = 3\nvalue = [1, 0, 0, 2, 0]\nclass = XL", fillcolor="#9e9cf2"] ;
+0 -> 14 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+15 [label="samples = 1\nvalue = [1, 0, 0, 0, 0]\nclass = L", fillcolor="#e58139"] ;
+14 -> 15 ;
+16 [label="samples = 2\nvalue = [0, 0, 0, 2, 0]\nclass = XL", fillcolor="#3c39e5"] ;
+14 -> 16 ;
+}
